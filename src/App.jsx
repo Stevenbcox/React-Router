@@ -1,13 +1,26 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+import "./index.css";
+import NavBar from "./components/NavBar";
+import MainContainer from "./components/MainContainer";
 
 function App() {
-
   return (
-    <div>
-      <h1>React App</h1>
+    <div id="container">
+      <h1>Hello React Router!</h1>
+      <div id="navbar">
+        <NavBar />
+      </div>
+      <div id="main-section">
+        <MainContainer />
+      </div>
+
+      <footer>
+      <div id="navbar">
+        <NavBar />
+      </div>
+      </footer>
     </div>
   );
 }
 
-export default App
+export default App;
